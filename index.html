@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f7f0e3"><title>Room Makeover</title><link rel="stylesheet" href="style.css"><link rel="icon" href="data:,"></head>
+<body><header><a class="brand" href="./">⌂ <span>Room Makeover<small>Little rooms. Big ideas.</small></span></a><nav id="rooms" aria-label="Choose a room"></nav><button id="restart" class="quiet">Restart room ↺</button></header>
+<main><aside class="letter"><div class="person"><img id="portrait" alt=""><div><span class="eyebrow">A LETTER FROM</span><h1 id="name"></h1></div><span class="stamp">✉</span></div><h2 id="title"></h2><p id="story"></p><div class="signature" id="signature"></div><div class="note">Read the letter. Arrange the room.<br>Left and right are as you see them.</div></aside>
+<section class="studio"><div class="scene-wrap"><div id="scene" aria-label="Room with six furniture spaces"><img id="background" alt="Empty room with a window on the left and a door on the right"><div id="spots"></div></div></div>
+<div class="toolbar"><span id="status" role="status" aria-live="polite">Choose a piece of furniture.</span><span id="count">0 / 6</span><button id="return" class="quiet" disabled>Return ↶</button><button id="next" hidden>Next room →</button></div>
+<div id="inventory" aria-label="Furniture"></div><p class="instructions">Drag a piece to a space, or click a piece and then a space. All six pieces are checked together.</p></section></main>
+<dialog id="finish"><div class="finish-art">⌂ ✦ ⌂</div><h2>Eight happy homes!</h2><p>You read every letter and finished all eight rooms.</p><button id="again">Play again ↻</button><button id="close-finish" class="quiet">Enjoy my room</button></dialog>
+<script src="data.js"></script><script src="game.js"></script></body></html>
